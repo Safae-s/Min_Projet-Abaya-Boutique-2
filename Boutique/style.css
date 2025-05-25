@@ -1,0 +1,298 @@
+ 
+        body {
+            background: linear-gradient(135deg, #ffe6f0, #ffd6e8);
+            min-height: 100vh;
+        }
+        .nav-link {
+    color: #b30059 !important;
+    font-weight: 600;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff4da6 !important; /* لون وردي فاتح عند المرور */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    color: #b30059 !important;
+    font-weight: 600;
+    font-size: x-large;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #f6077f !important;
+    cursor: pointer;    text-decoration: underline;
+
+}
+
+        
+        .carousel-caption {
+            background: rgba(179, 0, 89, 0.6);
+            border-radius: 10px;
+            padding: 10px 20px;
+        }
+        .carousel-item img {
+    object-fit: cover;
+    height: 500px; 
+}
+.titre{text-align: center; font-size: 4rem; color: #b30059; font-weight: 900; 
+           text-shadow: 2px 2px 8px rgba(179, 0, 89, 0.7); margin-bottom: 2rem;
+           animation: eyeMove 4s ease-in-out infinite alternate;
+        
+          @keyframes eyeMove {
+    0% {
+      text-shadow:
+        2px 2px 8px rgba(179, 0, 89, 0.7),
+        0 0 0 rgba(179, 0, 89, 0);
+    }
+    50% {
+      text-shadow:
+        6px 2px 12px rgba(179, 0, 89, 0.8),
+        2px 2px 8px rgba(179, 0, 89, 0.5);
+    }
+    100% {
+      text-shadow:
+        2px 2px 8px rgba(179, 0, 89, 0.7),
+        0 0 0 rgba(179, 0, 89, 0);
+    }
+  }}
+
+
+        .icon-links a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #b30059;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .icon-links a:hover {
+            color: #e60073;
+        }
+        .icon-links svg {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 5px;
+            fill: #b30059;
+        }
+        .produit-card {
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(179, 0, 89, 0.3);
+        }
+        .produit-card img {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            height: 180px;
+            object-fit: cover;
+        }
+    .produit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(179, 0, 89, 0.5);
+    transition: 0.3s ease;
+}
+
+/* Style de la section des derniers produits */
+h2 {
+  color: #b30059;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.produit-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.produit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.produit-card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.produit-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.produit-card .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.produit-card .card-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.produit-card h6.text-primary {
+  color: #b30059 !important;
+  font-weight: bold;
+}
+
+    h1 {
+      color: #b30059;
+      font-weight: bold;
+      margin-top: 2rem;
+    }
+    p {
+      font-size: 1rem;
+      color: #333;
+      line-height: 1.6;
+    }
+    .section-nos {
+      background-color: #fff0f5;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+  
+  
+    .section-contact {
+      background-color: #fff0f5;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    label {
+      color: #b30059;
+      font-weight: 500;
+    }
+    .btn-custom {
+      background-color: #b30059;
+      color: #fff;
+      border: none;
+    }
+    .btn-custom:hover {
+      background-color: #a00050;
+    }
+   .produit-image {
+            max-height: 400px;
+            object-fit: cover;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(179, 0, 89, 0.4);
+        }
+        .commande-form {
+            margin-top: 30px;
+            padding: 20px;
+            border: 2px solid #b30059;
+            border-radius: 10px;
+            background-color: #fff0f6;
+            box-shadow: 0 0 10px rgba(179, 0, 89, 0.2);
+        }
+        #formCommande {
+            display: none;
+        }
+        .btn-commander {
+            background-color: #b30059;
+            border: none;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .btn-commander:hover {
+            background-color: #800041;
+        }
+
+    .video-container {
+  position: relative;
+  width: 100%;
+  max-height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay-texte {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #b30059;
+  text-align: center;
+  padding: 0 20px;
+  max-width: 600px;
+}
+
+.overlay-texte h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.8);
+}
+
+.overlay-texte p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+.btn-outline-primaryy {
+  font-size: 1.1rem;
+  padding: 0.5rem 1.5rem;
+  border-color: #b30059;
+  color: #b30059;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-primaryy:hover {
+  background-color: #b30059;
+  color: white;
+}
+
+
+.btn-outline-primary {
+  font-size: 1.1rem;
+  padding: 0.5rem 1.5rem;
+  border-color: #f91998de;
+  color: #efe4ea;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-primary:hover {
+  background-color: #b30059;
+  color: white;
+}
+
+ #formCommande {
+            display: none;
+        }
+        .btn-commander {
+            background-color: #b30059;
+            color: white;
+        }
+        .btn-commander:hover {
+            background-color: #850040;
+            color: white;
+        }
+        .produit-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+
+
+
+
+        
